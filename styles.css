@@ -415,10 +415,10 @@ footer {
 
 /* Small screens (mobile) */
 @media (max-width: 600px) {
-  .nav__link {
-    margin-left: 1rem;
-    padding: 0;
-  }
+  .nav__link:not(:last-child) {
+    
+    display: none;
+}
 
   .about-me__picture--mask {
     width: 120px;
@@ -444,8 +444,9 @@ footer {
   .about-me {
     padding: 0;
   }
-  .nav__link {
-    margin-left: 1.5rem;
+  .nav__link:not(:last-child) {
+    
+      display: none;
   }
 
   .about-me__picture--mask {
