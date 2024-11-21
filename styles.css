@@ -141,6 +141,10 @@ nav {
   text-align: center;
 }
 
+.boild{
+  font-weight: bolder ;
+}
+
 .about-me__info--title {
   font-size: 36px;
   margin-bottom: 20px;
